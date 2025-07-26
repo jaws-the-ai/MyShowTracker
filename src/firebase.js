@@ -4,12 +4,13 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID",
+  apiKey: "AIzaSyBr-z24PPfdEp_IFnXAWr5HwEPodz_IgnI",
+  authDomain: "myshowtracker-93954.firebaseapp.com",
+  projectId: "myshowtracker-93954",
+  storageBucket: "myshowtracker-93954.appspot.com",
+  messagingSenderId: "508417592783",
+  appId: "1:508417592783:web:b189a1a05e48ae9ba316ba",
+  measurementId: "G-5Z7QT4W0R3",
 };
 
 const app = initializeApp(firebaseConfig);
